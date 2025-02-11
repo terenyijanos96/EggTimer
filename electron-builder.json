@@ -1,0 +1,19 @@
+{
+    "appId": "com.janisoft.tojgli",
+    "files": [
+        "dist-electron/**/*",
+        "dist-react/**/*",
+        "src/electron/**/*"
+    ],
+    "icon": "./icon.png",
+    "mac":{
+        "target": "dmg"
+    },
+    "linux": {
+        "target" : "AppImage",
+        "category": "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+}
