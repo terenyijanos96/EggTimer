@@ -1,8 +1,34 @@
-# React + Vite
+Electron + React Timer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ez egy letisztult időzítő alkalmazás, amelyet Electron és React alapokon készítettem.  
+Lehetőséged van előre megadott időtartamok közül választani, majd az **Indítás** gombbal elindítani a kiválasztott időzítőt.
 
-Currently, two official plugins are available:
+🚀 Beüzemelés
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Klónozd a repót:
+  ```bash
+    git clone https://github.com/terenyijanos96/EggTimer.git
+    cd EGGTIMER-MAIN
+  ```
+
+Telepítsd a függőségeket:
+```bash
+  npm install
+  ```
+
+Indítsd el a fejlesztői környezetet Electronnal:
+```bash
+  npm run dev:electron
+  ```
+
+Majd nyomj egy o betűt az alkalmazás megnyitásához
+
+⚙️ Használat
+Indítás után válaszd ki a kívánt időzítő hosszát:
+  5 perc
+  10 perc
+  15 perc
+  20 perc
+
+Nyomd meg az Indítás gombot, és az időzítő elindul.
+
